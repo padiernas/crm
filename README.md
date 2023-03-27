@@ -1,55 +1,55 @@
-# Xarerp - Client
+# CRM
 
-System to manage sales, inventory, employees, stores and more.
+Sistema para gestionar ventas, inventario, empleados, tiendas.
 
-## Developed with
+## Desarrollado con
 
 * [React](https://reactjs.org/)
 * [Styled Components](https://styled-components.com/)
 * [Recharts](https://recharts.org/en-US/)
 * [Axios](https://axios-http.com/)
 
-This is just the front-end of the application, to get the back-end (API created in Node), go to: [Xarerp - API](https://github.com/DanielMafra/xarerp-api)
+Esto es solo el front-end de la aplicación, para obtener el back-end (API creado en Node), vaya a: [API - CRM](https://github.com/padiernas/api-crm)
 
-You can view a demo of the front-end with the mocked back-end (using localStorage and with some limited functions) by [clicking here](https://danielmafra.github.io/xarerp/).
+Puede ver una demostración del front-end con el back-end simulado [Clic aquí](https://danielmafra.github.io/xarerp/).
 
-### Basic functionality example
+### Ejemplo de funcionalidad básica
 
 ![Xarerp](https://i.imgur.com/qvl8FZG.gif)
 
-### Light and Dark theme
+### Tema claro y oscuro
 
 ![Xarerp](https://i.imgur.com/5E34E2J.gif)
 
-### Mobile breakpoint
+### Punto de interrupción móvil
 
 ![Xarerp](https://i.imgur.com/hdgFLyS.gif)
 
-## Some features
+## SomAlgunas características features
 
-* ✅ Persistence of user choices
-* ✅ Login persistence (jsonwebtoken)
-* ✅ State persistence with Context API and localStorage
-* ✅ Protected routes
-* ✅ Routes with access permissions based on the logged in user
-* ✅ CRUD for each registration functionality
-* ✅ Rules for not allowing duplicate entries
-* ✅ Search and pagination filters
-* ✅ Charts with metrics from the last 7, 15 and 30 days
-* ✅ Choose between dark and light theme
-* ✅ Responsive for mobile
+* ✅ Persistencia de las opciones del usuario
+* ✅ Persistencia de inicio de sesión (jsonwebtoken)
+* ✅ Persistencia de estado con Context API y localStorage
+* ✅ Rutas protegidas
+* ✅ Rutas con permisos de acceso basados en el usuario conectado
+* ✅ CRUD para cada funcionalidad de registro
+* ✅ Reglas para no permitir entradas duplicadas
+* ✅ Filtros de búsqueda y paginación
+* ✅ Gráficos con métricas de los últimos 7, 15 y 30 días
+* ✅ Elija entre el tema oscuro y claro
+* ✅ Responsive para móviles
 
-## Running the application
+## Ejecutando la aplicación
 
-After having cloned the repository and accessed its folder through the terminal, run the command below
+Después de haber clonado el repositorio y accedido a su carpeta a través del terminal, ejecute el comando a continuación
 
 ```bash
   npm install
 ```
 
-* Go to /src/services/axios.ts and change baseURL to your API URL
+* Vaya a /src/services/axios.ts y cambie la baseURL por la URL de su API
 
-* Make sure you have configured the API and activated it, then run the command below
+* Asegúrese de haber configurado la API y activado, luego ejecute el siguiente comando
 
 ```bash
   npm start
