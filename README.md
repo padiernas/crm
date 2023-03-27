@@ -55,8 +55,3 @@ After having cloned the repository and accessed its folder through the terminal,
   npm start
 ```
 
-## Author
-
-- Website - [Daniel Mafra](https://danielmafra.github.io)
-- LinkedIn - [@danielmafradev](https://linkedin.com/in/danielmafradev)
-- Instagram - [@danielmafradev](https://instagram.com/danielmafradev)
